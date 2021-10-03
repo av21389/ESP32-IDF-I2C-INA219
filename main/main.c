@@ -9,6 +9,7 @@
 
 #define SDA_GPIO 18
 #define SCL_GPIO 19
+
 #define INA219_ADD 0x40
 #define reg_addr 0x04  //00 = config | 01 = vShunt | 02 = vBus | 03 = Power | 04 = Current 
 #define cal_addr 0x05  //Calibration register address
