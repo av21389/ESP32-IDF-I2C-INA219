@@ -106,6 +106,7 @@ void app_main(void)
     }
     printf("\n");
   
+  //Put the 2 bytes into a single 16 bit integer
   int16_t data = raw[0] << 8 | raw[1];
 
   if(reg_addr == 0x01){
@@ -126,5 +127,6 @@ void app_main(void)
     printf("Current: %fA \n", Current);
   }
  
+ //ToDo - deal with negative values
   
 }
